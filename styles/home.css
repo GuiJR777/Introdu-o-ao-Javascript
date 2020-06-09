@@ -1,0 +1,32 @@
+html{
+    background-color: #f0f0f5;
+}
+
+
+h1{
+    display: flex;
+    margin-left: 32%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+}
+ button{
+     width: 50px;
+     height: 50px;
+     background-color: red;
+     margin-left: 47%;
+     margin-top: 100px;
+     position: fixed;
+ }
+ h3{
+     margin-top: 100px;
+     margin-left: 50%;
+     font-size: 50px;
+
+ }
+ p{
+     margin-top: 250px;
+ }
+
+ #done a{
+     cursor: pointer;
+ }

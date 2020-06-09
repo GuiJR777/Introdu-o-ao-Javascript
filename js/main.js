@@ -74,20 +74,25 @@ alert(soma(5,10)) */
 idade= prompt('Idade:')
 validaIdade(idade) */
 
-var nome= prompt('Qual é o seu nome?')
+
 
 function load(){
-    nome
-    alert('Bem vindo(a) '+nome)
+    var nome= prompt('Qual é o seu nome?')
+    alert('Bem vindo(a) '+ nome)
 }
+ nome=
 clicks= 0
-function clicou(){
-    
+function clicou(){    
     clicks++
     document.getElementById('output').innerHTML= clicks
+    if(clicks==1){
+        load()
+    }
     if(clicks>=10){
-        window.location.href= "http://127.0.0.1:5500/done.html"}
+        window.location.href= "http://127.0.0.1:5500/done.html"
+        }        
 }
+
 
 function trocar(elemento){
     elemento.innerHTML= 'Se você clicar 10x vai ser redirecionado!' 
@@ -98,6 +103,7 @@ function voltar(elemento){
  function home(){
     window.location.href= "http://127.0.0.1:5500/"
  }
+ 
 
 
 

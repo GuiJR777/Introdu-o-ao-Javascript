@@ -1,19 +1,31 @@
-<html>
-    <head>
-        <title>Minha Página</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <script type= "text/javascript"  src = "js/main.js" > </script>
+<html lang="pt_br">
 
-    </head>
-    <body onload="load()">
+<head>
+    <title>Minha Página</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="js/main.js"> </script>
+    <link rel="stylesheet" href="/styles/home.css">
+
+
+</head>
+
+
+<body>
+    <div id="Home">
         <h1>Javascript + HTML</h1>
 
+        <h3 id='output'>0</h3>
         <button type="button" onclick='clicou()'>Clique Aqui</button>
-        <h3 id= 'output'></h3>
-        <p id='mousemove' onmouseover='trocar(this)' onmouseout= 'voltar(this)'  >Segredo</p>
 
-        
-    </body>
+        <p id='mousemove' onmouseover='trocar(this)' onmouseout='voltar(this)'>Segredo</p>
+
+
+
+    </div>
+
+</body>
 
 
 
